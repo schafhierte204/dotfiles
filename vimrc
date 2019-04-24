@@ -77,7 +77,7 @@ vnoremap ö dp'[V']
 vnoremap Ö dkP'[V']
 
 "<c-]>
-noremap <c-9> <c-]>
+noremap <leader> <c-]>
 
 "insert blank line
 nnoremap <leader>o o<ESC>
