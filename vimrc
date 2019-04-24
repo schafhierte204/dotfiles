@@ -1,6 +1,11 @@
 set nocompatible
 syntax enable
-filetype plugin on
+set ruler
+
+"indentation
+filetype indent on
+set smartindent
+
 "Automatic realoding of .vimrc 
 autocmd! bufwritepost vimrc source %
 
