@@ -3,7 +3,7 @@ syntax enable
 set ruler
 
 "indentation
-filetype indent on
+filetype plugin indent on
 set smartindent
 
 "Automatic realoding of .vimrc 
@@ -14,6 +14,9 @@ autocmd! bufwritepost *.tex !pdflatex -synctex=1 -interaction=nonstopmode %
 
 "Backspace
 set bs=2
+
+"add PLugins
+packadd! matchit
 
 "show number and length
 set number
