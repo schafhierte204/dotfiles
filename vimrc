@@ -2,6 +2,10 @@ set nocompatible
 syntax enable
 set ruler
 
+"splittsettings
+set splitbelow
+set splitright
+
 "indentation
 filetype plugin indent on
 set smartindent
