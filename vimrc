@@ -80,14 +80,14 @@ nnoremap Ö ddkP
 vnoremap ö dp'[V']
 vnoremap Ö dkP'[V']
 
-"<c-]>
+"Help navigation
 noremap <leader> <c-]>
 
 "insert blank line
 nnoremap <leader>o o<ESC>
 
 "qick vimrc edit
-nnoremap <leader>ev :vsplit ~/dotfiles/vimrc<cr>
+nnoremap <leader>ev :vsplit ~/.vimrc<cr>
 
 "soruound selection
 nnoremap <leader>" ea"<esc>bi"<esc>
