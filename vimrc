@@ -19,9 +19,6 @@ autocmd! bufwritepost *.tex !pdflatex -synctex=1 -interaction=nonstopmode %
 "Backspace
 set bs=2
 
-"add PLugins
-packadd! matchit
-
 "show number and length
 set number
 set relativenumber
@@ -87,7 +84,7 @@ noremap <leader> <c-]>
 nnoremap <leader>o o<ESC>
 
 "qick vimrc edit
-nnoremap <leader>ev :vsplit ~/.vimrc<cr>
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 
 "soruound selection
 nnoremap <leader>" ea"<esc>bi"<esc>
