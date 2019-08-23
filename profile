@@ -1,1 +1,1 @@
-tmux
+startx -- -nolisten tcp
