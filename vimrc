@@ -16,6 +16,9 @@ autocmd! bufwritepost vimrc source %
 "auto Tex Compilation
 autocmd! bufwritepost *.tex !pdflatex -synctex=1 -interaction=nonstopmode %
 
+"auto c++ compile
+autocmd! bufwritepost *.cpp !g++ -O0 %
+
 "Backspace
 set bs=2
 
