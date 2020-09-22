@@ -85,6 +85,7 @@ noremap <leader> <c-]>
 
 "insert blank line
 nnoremap <leader>o o<ESC>
+nnoremap <leader>O O<ESC>
 
 "qick vimrc edit
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
