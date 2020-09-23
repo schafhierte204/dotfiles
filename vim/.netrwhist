@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='C:\Users\Lenovo\dotfiles'
 let g:netrw_dirhist_2='/home/jens/.vim/pack/mypack/start/html5.vim'
 let g:netrw_dirhist_1='/home/jens/.vim/pack/mypack/start'
 let g:netrw_dirhist_0='/home/jens/.vim/pack/mypack'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_7='/home/jens/.vim/bundle'
 let g:netrw_dirhist_6='/home/jens/.vim/bundle/.vundle'
 let g:netrw_dirhist_5='/home/jens/.vim/bundle'
 let g:netrw_dirhist_4='/home/jens/.vim'
-let g:netrw_dirhist_3='/home/jens/.vim/autoload'
