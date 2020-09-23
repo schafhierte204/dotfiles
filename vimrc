@@ -1,6 +1,7 @@
 set nocompatible
 syntax enable
 set ruler
+set runtimepath+=$HOME\dotfiles\vim\
 
 "splittsettings
 set splitbelow
