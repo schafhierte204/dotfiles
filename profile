@@ -1,1 +1,3 @@
-startx -- -nolisten tcp
+if tty | fgrep tty ; then
+setsid -c startx -- -nolisten tcp
+fi
