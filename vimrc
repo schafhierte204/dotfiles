@@ -1,6 +1,7 @@
 set nocompatible
 syntax enable
 set ruler
+set runtimepath+=$HOME\dotfiles\vim\
 
 "splittsettings
 set splitbelow
@@ -15,6 +16,9 @@ autocmd! bufwritepost vimrc source %
 
 "auto Tex Compilation
 autocmd! bufwritepost *.tex !pdflatex -synctex=1 -interaction=nonstopmode %
+
+"auto c++ compile
+autocmd! bufwritepost *.cpp !g++ -O0 %
 
 "Backspace
 set bs=2
@@ -82,6 +86,7 @@ noremap <leader> <c-]>
 
 "insert blank line
 nnoremap <leader>o o<ESC>
+nnoremap <leader>O O<ESC>
 
 "qick vimrc edit
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
