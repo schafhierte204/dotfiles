@@ -1,7 +1,6 @@
 set nocompatible
 syntax enable
 set ruler
-set runtimepath+=$HOME\dotfiles\vim\
 
 "splittsettings
 set splitbelow
@@ -90,7 +89,7 @@ nnoremap <leader>o o<ESC>
 nnoremap <leader>O O<ESC>
 
 "qick vimrc edit
-nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>ev :vsplit ~/dotfiles/vimrc<CR>
 
 "soruound selection
 nnoremap <leader>" ea"<esc>bi"<esc>
@@ -102,3 +101,6 @@ vnoremap < <gv
 
 "remove searchhighlight
 nnoremap <leader>/ :nohlsearch <CR>
+
+"spell
+nnoremap <leader>L :setlocal spell spelllang=
