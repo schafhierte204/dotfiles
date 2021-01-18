@@ -1,3 +1,1 @@
-if tty | fgrep tty ; then
-setsid -c startx -- -nolisten tcp
-fi
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then exec startx; fi
