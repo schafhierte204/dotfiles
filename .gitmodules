@@ -4,6 +4,3 @@
 	url = https://github.com/othree/html5.vim.git
 [submodule "vim/pack/mypack/start/vim-javascript"]
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "vim/pack/mypack/start/clang_complete"]
-	path = vim/pack/mypack/start/clang_complete
-	url = https://github.com/xavierd/clang_complete.git
