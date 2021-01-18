@@ -4,3 +4,6 @@
 	url = https://github.com/othree/html5.vim.git
 [submodule "vim/pack/mypack/start/vim-javascript"]
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/pack/mypack/start/YouCompleteMe"]
+	path = vim/pack/mypack/start/YouCompleteMe
+	url = https://github.com/ycm-core/YouCompleteMe.git
