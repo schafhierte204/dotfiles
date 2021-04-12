@@ -17,7 +17,7 @@ autocmd! bufwritepost vimrc source %
 autocmd! bufwritepost *.tex !pdflatex -synctex=1 -interaction=nonstopmode %
 
 "auto c++ compile
-autocmd! bufwritepost *.cpp !g++ -O0 %
+autocmd! bufwritepost *.cpp !g++ -O0 % -Werror
 set foldmethod=syntax
 
 "Backspace
@@ -31,7 +31,7 @@ set tw=79
 set nowrap
 set fo-=t
 set colorcolumn=80
-highlight ColorColumn ctermbg=233
+highlight ColorColumn ctermbg=100
 
 "spaces
 set tabstop=4
